@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 341px;
+  margin: 0 auto;
+}
+
+/*Price*/
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.price_above {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.price_all {
+  width: 165px;
+  height: 44px;
+  background-color: #FED74B;
+  border-radius: 22px;
+  border: 1px solid #CBA500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.price_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0;
+}
+
+/*Trips*/
+
+.advantages {
+  list-style: none;
+}
+
+.advantages_inner {
+  color: #4B4B4B;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.advantages_inner:nth-child(3) img {
+  top: -8px;
+}
+
+.advantages_inner img {
+  margin-right: 15px;
+  position: relative;
+  top: 1px;
+}
+
+.clock_time {
+  display: flex;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.new_trip {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 99px;
+  height: 35px;
+  background-color: #FED74B;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.new_trip.purple {
+  top: 0;
+  width: 129px;
+  height: 43px;
+  background-color: #7553FF;
+  color: #fff;
+  border-radius: 16px 0 16px 0;
+  padding-top: 11px;
+}
+
+.time {
+  list-style: none;
+  display: flex;
+  margin-left: 30px;
+}
+
+.time_inner {
+  width: 63px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #D9E8FF;
+  text-align: center;
+  padding-top: 2px;
+  margin-right: 7px;
+}
+
+.trips_background img {
+  width: 100%;
+  height: auto;
+}
+
+.trips_inner {
+  padding: 0 12px;
+}
+
+.trips_link {
+  border: 0.3px solid #8282824b;
+  border-radius: 16px;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.trips_time {
+  font-size: 12px;
+  color: #9E9E9E;
+  margin-left: 10px;
+}
+
+.trips_time img {
+  margin-right: 10px;
+}
+
+.trips_title {
+  margin-bottom: 23px;
+  font-weight: 600;
+  font-size: 14px;
+}
